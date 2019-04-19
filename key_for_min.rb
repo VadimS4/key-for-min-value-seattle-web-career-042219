@@ -3,6 +3,9 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |name, age|
-    return name
+    if name = 0
+      return nil
+    else
+      
   end
 end
