@@ -8,9 +8,8 @@ def key_for_min_value(name_hash)
     if age < lowest_value
       lowest_value = age
       smallest_name = name
-      return nil
     else
-      return name
+      retu
     end
   end
 end
